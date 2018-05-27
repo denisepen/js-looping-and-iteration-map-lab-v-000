@@ -14,8 +14,15 @@ let  newDriver = drivers.map(function(driver){
 //
 //   })
 // }
-thedrivers = [
+theDrivers = [
   {name: "James", hometown: "Chicago"},
   {name: "Dee", hometown: "New York"}
 
 ]
+
+function attributesToPhrase(theDrivers){
+  sent = theDrivers.map(function(driver){
+    return `${driver.name} is from ${driver.hometown}` 
+  })
+  return sent
+}
