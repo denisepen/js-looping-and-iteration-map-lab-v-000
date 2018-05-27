@@ -1,5 +1,5 @@
 // Code your solution in this file.
-const drivers = ["ray", "ana", "dan"]
+const drivers = ["Ray", "Ana", "Dan"]
 
 function lowerCaseDrivers(drivers){
   drivers.map(driver){
