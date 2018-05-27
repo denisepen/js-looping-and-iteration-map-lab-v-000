@@ -9,11 +9,12 @@ let  newDriver = drivers.map(function(driver){
   return newDriver
 }
 
-// function nameToAttributes(oDrivers){
-//   let newDriver = oDrivers.map(function(driver){
-//
-//   })
-// }
+/function nameToAttributes(oDrivers){
+ let newDrivers = oDrivers.map(function(driver){ return driver.split(" ")}
+newest = newDrivers.map(function(driver){return Object.assign({}, { firstName: driver[0], lastName: driver[1] }) })
+)
+
+// newest = newDrivers.map(function(driver){return Object.assign({}, { firstName: driver[0], lastName: driver[1] }) })
 theDrivers = [
   {name: "James", hometown: "Chicago"},
   {name: "Dee", hometown: "New York"}
