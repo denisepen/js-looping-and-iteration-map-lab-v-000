@@ -25,4 +25,4 @@ function attributesToPhrase(theDrivers){
 function nameToAttributes(oDrivers){
  let newDrivers = oDrivers.map(function(driver){ return driver.split(" ")})
 newest = newDrivers.map(function(driver){return Object.assign({}, { firstName: driver[0], lastName: driver[1] })
- return newest })}
+ }return newest )}
