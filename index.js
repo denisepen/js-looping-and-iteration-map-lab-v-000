@@ -8,10 +8,6 @@ let  newDriver = drivers.map(function(driver){
   })
   return newDriver
 }
-
-
-
-
 // newest = newDrivers.map(function(driver){return Object.assign({}, { firstName: driver[0], lastName: driver[1] }) })
 theDrivers = [
   {name: "James", hometown: "Chicago"},
