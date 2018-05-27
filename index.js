@@ -9,6 +9,13 @@ let  newDriver = drivers.map(function(driver){
   return newDriver
 }
 
-function nameToAttributes(oDrivers){
-  let newDriver = 
-}
+// function nameToAttributes(oDrivers){
+//   let newDriver = oDrivers.map(function(driver){
+//
+//   })
+// }
+thedrivers = [
+  {name: "James", hometown: "Chicago"},
+  {name: "Dee", hometown: "New York"}
+
+]
