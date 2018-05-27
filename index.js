@@ -21,8 +21,8 @@ theDrivers = [
 ]
 
 function attributesToPhrase(theDrivers){
-  sent = theDrivers.map(function(driver){
-    return `${driver.name} is from ${driver.hometown}` 
+  sentences = theDrivers.map(function(driver){
+    return `${driver.name} is from ${driver.hometown}`
   })
-  return sent
+  return sentences
 }
