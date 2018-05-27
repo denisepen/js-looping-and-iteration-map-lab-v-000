@@ -2,7 +2,8 @@
 const drivers = ["Ray", "Ana", "Dan"]
 
 function lowerCaseDrivers(drivers){
-  drivers.map(driver){
+let  newDriver = drivers.map(driver){
     return driver.toLowerCase()
   }
+  return newDriver
 }
